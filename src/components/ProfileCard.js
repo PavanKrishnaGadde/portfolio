@@ -1,7 +1,7 @@
 import '../styles/profileCard.scss';
 import proPic from '../images/propic.JPG'
 
-function ProfileCard() {
+export const ProfileCard = () => {
   return (
     <div className="profile-card">
       <div className="propic-wrapper">
@@ -16,5 +16,3 @@ function ProfileCard() {
     </div>
   );
 }
-
-export default ProfileCard;

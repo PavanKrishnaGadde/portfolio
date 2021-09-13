@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import ProfileCard from './components/ProfileCard'
+import { ProfileCard } from './components/ProfileCard';
+import { Details } from './components/Details';
 import './App.scss';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className="profile-section">
          <ProfileCard />
       </div>
+      <Details />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
